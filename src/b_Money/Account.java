@@ -59,6 +59,7 @@ public class Account {
 	 * A time unit passes in the system
 	 */
 	public void tick() {
+		//Removed second tick
 		for (TimedPayment tp : timedpayments.values()) {
 			tp.tick();
 		}
